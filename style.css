@@ -1,0 +1,96 @@
+body{
+    background-color: skyblue;
+}
+h2{
+    text-align: center;
+}
+.todolistcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+}
+.todolistwrapper{
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 25px;
+    background-color: black;
+    padding: 15px;
+}
+.listCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh;
+}
+.displayUserListofItems{
+    width: 300px;
+    border: 2px solid white;
+    height: 400px;
+    padding: 10px;
+    background-color: skyblue;
+    overflow: hidden;
+    /* display: flex; */
+    justify-content: center;
+}
+.inputAndAddButtonContainer{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+.inputAndAddButtonContainer input{
+    height: 22px;
+    border-radius: 5px;
+    border: o.5px solid black;
+    width: 150px;
+    color: black;
+    padding: 8px;
+    
+}
+.inputAndAddButtonContainer button{
+    height: 40px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    outline: none;
+    padding: 10px;
+    border: none;
+}
+.userListAndDeleteUserListCont{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    height: 30px;
+    width: 190px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    display: flex;
+    color: black;
+    margin: 11px;
+    position: relative;
+    border: 2px solid black;
+}
+.userListAndDeleteUserListCont:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.deleteUserList{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.displayDate{
+    color: black;
+    font-size: 9px;
+    position: absolute;
+    bottom: -10px;
+    right: 0px;    
+}
+.alertbox p{
+    color: white;
+    margin-left: 15vh;
+    text-decoration: wavy;
+    text-decoration-color: white;
+}
